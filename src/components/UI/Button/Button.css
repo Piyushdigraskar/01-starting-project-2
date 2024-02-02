@@ -1,0 +1,31 @@
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #8b005d;
+  color: white;
+  background: #8b005d;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #ac0e77;
+  border-color: #ac0e77;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+.button.added button{
+  color: red;
+}
+.button.notAdded button{
+  color:rgb(232, 101, 101)
+}
+.button.notAdded {
+  background-color: lightcoral; /* Light red color */
+  border-color: lightcoral; /* Light red border color */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
